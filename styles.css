@@ -5,24 +5,46 @@ body {
 
 .card_banner{
     background-color: hsl(0, 0%, 100%);
+    display: grid;
+    place-content: center;
     padding: 20px;
     border-radius: 15px;
-    width: 600px;
+    width: 320px;
     margin:auto;
-    text-align: center;
+    box-sizing: border-box;
 }
 
 .img{
     width: 100%;
     border-radius:15px;
+    box-sizing: border-box;
+    display: grid;
+    place-content: center;
 }
 
 .card_title{
     color: hsl(218,44%,22%);
     padding:20px 30px 0 30px;
+    box-sizing: border-box;
+    display: grid;
+    place-content: center;
 }
 
 .card_description {
     color: hsl(218,44%,22%);
     padding:0 30px 30px 30px;
+    box-sizing: border-box;
+    display: grid;
+    place-content: center;
+}
+
+/* hide sr-only class*/
+.sr-only {  
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
 }
