@@ -22,11 +22,10 @@ body {
 
 .img{
     height: 60%;
-    width: 100%;
+    width: 60%;
     margin: 0 auto;
     border-radius: 0.5rem;
     overflow: hidden;
-    object-fit: cover;
 }
 
 .card_title{
